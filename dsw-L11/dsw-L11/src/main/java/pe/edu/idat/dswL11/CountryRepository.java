@@ -24,10 +24,10 @@ public class CountryRepository {
 		countries.put(spain.getName(), spain);
 
 		Country pe = new Country();
-		spain.setName("peru");
-		spain.setCapital("lima");
-		spain.setCurrency(Currency.PEN);
-		spain.setPopulation(424567855);
+	    pe.setName("peru");
+		pe.setCapital("lima");
+		pe.setCurrency(Currency.PEN);
+		pe.setPopulation(424567855);
 
 		countries.put(pe.getName(), pe);
 
