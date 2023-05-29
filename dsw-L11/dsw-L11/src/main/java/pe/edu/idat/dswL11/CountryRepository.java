@@ -29,7 +29,7 @@ public class CountryRepository {
 		spain.setCurrency(Currency.EUR);
 		spain.setPopulation(46704314);
 
-		countries.put(spain.getName(), peru);
+		countries.put(peru.getName(), peru);
 
 		Country poland = new Country();
 		poland.setName("Poland");
